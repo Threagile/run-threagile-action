@@ -5,7 +5,7 @@ inputs:
     description: 'Threat model input file'
     required: true
     default: 'threagile.yaml'
-outputs:
+#outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
