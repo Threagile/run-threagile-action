@@ -21,6 +21,7 @@ on:
       - 'threagile.yaml' # useful to filter this job to execute only when the threat model changes
 
 jobs:
+
   threagile_job:
     runs-on: ubuntu-latest
     name: Threat Model Analysis
@@ -45,12 +46,12 @@ jobs:
           path: threagile/output
      
       # Optional step to link from repo's README.md if you want. This can also be committed to a separate branch if desired.
-      - name: Commit & Push DFD Diagram 
+      - name: Commit & Push Report and DFD Diagram
         run: |
           git config --local user.email "threagile@example.com" # customize as desired
           git config --local user.name "Threagile" # customize as desired
-          git add threagile/output/data-flow-diagram.png
           git add threagile/output/report.pdf
+          git add threagile/output/data-flow-diagram.png
           git commit -m "Update threat model report and data-flow diagram by Threagile" # customize as desired
           git push
 ```
