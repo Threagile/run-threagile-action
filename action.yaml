@@ -1,6 +1,6 @@
 name: 'Threagile'
 author: Threagile
-description: 'Threat model analysis via the open-source agile threat modeling toolkit Threagile'
+description: 'Threat model analysis via open-source toolkit Threagile'
 inputs:
   model-file: # id of input variable
     description: 'Threat model input file'
