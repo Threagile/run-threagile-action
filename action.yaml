@@ -12,3 +12,6 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.model-file }}
+branding:
+  icon: 'codesandbox'  
+  color: 'blue'
