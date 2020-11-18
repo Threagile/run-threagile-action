@@ -13,5 +13,5 @@ runs:
   args:
     - ${{ inputs.model-file }}
 branding:
-  icon: 'codesandbox'  
+  icon: 'box'  
   color: 'blue'
